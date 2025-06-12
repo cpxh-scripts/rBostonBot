@@ -28,7 +28,14 @@ A Reddit bot that posts current MBTA delay alerts and Boston weather forecasts t
 - WeatherAPI key
 - PIP dependencies: `praw`, `requests`, `pytz`
 
-Install dependencies:
+## Setup
+Create a .env or set the following values directly in your script :
 
-```bash
-pip install -r requirements.txt
+client_id = "your_client_id"
+client_secret = "your_client_secret"
+user_agent = "you_user_agent"
+username = "your_username"
+password = "your_password"
+api_key = "your_mbta_api_key"
+weather_api_key = "your_weatherapi_key"
+
